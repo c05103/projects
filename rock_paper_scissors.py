@@ -87,6 +87,11 @@ elif choice == 2:
         print("You win")
     elif ai == scissors :
         print ("Its a tie")
+        
+        
+#error handling 
+else : 
+    print("You typed an invalid number")
 
 
         
