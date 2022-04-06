@@ -61,4 +61,3 @@ elif first_input == "left" :
             
             
 #End of code 
-
