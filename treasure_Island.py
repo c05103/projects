@@ -56,5 +56,9 @@ elif first_input == "left" :
                 print ("dumb dumb... go back to school. You scared the unicorn away with your dumb dumbness. Game over !! you lose")
         else : 
             print ("can you not use a keyboard and type? i dont even want you to keep playing. Game over!!!")
-
+            
+            
+            
+            
+#End of code 
 
