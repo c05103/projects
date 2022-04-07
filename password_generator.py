@@ -13,8 +13,6 @@ nr_symbols = int(input(f"How many symbols would you like?\n"))
 
 
 select = ""
-select2 = ""
-select3 = ""
 
 #for loop to select the inputted letters 
 
@@ -30,22 +28,19 @@ for i in range (0,nr_letters):
 for i in range (0,nr_numbers):
   
   ran = random.choice(numbers)
-  select2 += ran
+  select += ran
 
 #for loop to select the inputted symbols 
 
 for i in range (0,nr_symbols):
   
   ran = random.choice(symbols)
-  select3 += ran
+  select += ran
 
 # prints the outcome of the password
 
-print(f"{select}{select2}{select3}")
+print(f"{select}")
 
-
-
-combo = [(select),(select2),(select3)]
 
 
 #end of code 
